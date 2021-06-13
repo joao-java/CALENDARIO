@@ -1,15 +1,56 @@
-/*
-.n1{
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    background: #000;
-    color: cornsilk;
-}
-*/
+
 .um{
-    grid-column: 6;
+    grid-column: 7;
 }
 .dia .n1, .n3{
     background: aqua;
+}
+
+/* -- COMEÇO DO MEU GRID -- */
+.atual1{
+    grid-column: 5;
+}.atual2{
+    grid-column: 1;
+}.atual3{
+    grid-column: 4;
+}.atual4{
+    grid-column: 6;
+}.atual5{
+    grid-column: 2;
+}.atual6{
+    grid-column: 4;
+}.atual7{
+    grid-column: 7;
+}.atual8{
+    grid-column: 3;
+}.atual9{
+    grid-column: 3;
+}.atual10{
+    grid-column: 6;
+}.atual11{
+    grid-column: 1;
+}.atual12{
+    grid-column: 4;
+}
+
+/* -- DISPLA NONE 31 -- */
+.dN3, .dN5, .dN8, .dN10, .dN12{
+    display: none;
+}
+
+/* -- CORES DE MARCAÇÃO -- */
+.dc1{
+    background: #010c29;
+}
+.dc2{
+    background: #305285;
+}
+.dc3{
+    background: #1d5c94;
+}
+.dc4{
+    background: #2c7eab;
+}
+.dc5{
+    background: #3da2bb;
 }
