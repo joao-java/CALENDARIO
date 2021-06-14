@@ -9,6 +9,5 @@ function calendarioTempo() {
     calendario.forEach((calendario, index) => {
         calendario.innerHTML = calParaOWWB.total[index];
     });
-}
-calendarioTempo();
+}calendarioTempo();
 setInterval(calendarioTempo, 1000);
