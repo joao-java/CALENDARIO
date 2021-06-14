@@ -5,7 +5,7 @@
 .n1, .n3{
     background: aqua;
 }
-.dia .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10{
+.dia .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10, .n11, .n12, .n13, .n14{
     background: #000;
     color: #fff
 }
@@ -46,16 +46,18 @@
 /* -- CORES DE MARCAÇÃO -- */
 .dc1{
     background: #010c29;
-}
-.dc2{
+}.dc2{
     background: #305285;
-}
-.dc3{
+}.dc3{
     background: #1d5c94;
-}
-.dc4{
+}.dc4{
     background: #2c7eab;
-}
-.dc5{
+}.dc5{
     background: #3da2bb;
+}
+
+/* -- TESTE descrição da atividade -- */
+
+.a1 > :nth-child(1):hover .diasAtuais:nth-child(1){
+    background: #000;
 }
