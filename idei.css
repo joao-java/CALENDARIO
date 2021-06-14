@@ -1,20 +1,15 @@
 
 .um{
-<<<<<<< HEAD
     grid-column: 3;
-=======
-    grid-column: 7;
->>>>>>> b69d93af26b22afb5b1117ee9e4f7a118676d24e
 }
-.dia .n1, .n3{
+.n1, .n3{
     background: aqua;
 }
-<<<<<<< HEAD
-.dia .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10
-{
+.dia .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10{
     background: #000;
-    color: #fff;
-=======
+    color: #fff
+}
+    
 
 /* -- COMEÇO DO MEU GRID -- */
 .atual1{
@@ -63,5 +58,4 @@
 }
 .dc5{
     background: #3da2bb;
->>>>>>> b69d93af26b22afb5b1117ee9e4f7a118676d24e
 }

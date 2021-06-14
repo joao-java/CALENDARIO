@@ -2,7 +2,7 @@ import Countdown from "./countdown.js";
 
 const enemParaOWWB = new Countdown("30 junie 2021 20:00:00 GMT-0300");
 
-const calendario = document.querySelectorAll("[enem-time]");
+const calendario = document.querySelectorAll("[calendario-time]");
 
 
 function calendarioTempo() {
