@@ -8,8 +8,13 @@
 }
 */
 .um{
-    grid-column: 6;
+    grid-column: 3;
 }
 .dia .n1, .n3{
     background: aqua;
+}
+.dia .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10
+{
+    background: #000;
+    color: #fff;
 }
