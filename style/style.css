@@ -186,9 +186,9 @@ nav{
     display: flex;
     flex-direction: column;
 }.destaqueCor{
-width: 10%;
-height: 100%;
-background: #fff;
+    width: 10%;
+    height: 100%;
+    background: #fff;
 }.containerNav{
     width: 90%;
     height: 90%;
@@ -224,8 +224,6 @@ main{
     display: flex;
     align-items: center;
     overflow-x:scroll;
-}::-webkit-slider-thumb{
-    background: #000;
 }.proximosMeses{
     min-width: 300px;
     height: 80%;

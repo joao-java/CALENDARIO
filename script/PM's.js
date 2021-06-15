@@ -1,13 +1,13 @@
 
 
 //Mes 1
-document.querySelector(".pm1").addEventListener("click", ()=> 
+document.querySelector("#pm1").addEventListener("click", ()=> 
 document.querySelector(".at1").classList.toggle("show-cor")
 );
- 
+
 //Mes 2
-document.querySelector(".pm2").addEventListener("click", ()=> 
-document.querySelector(".at2").classList.toggle("show-cor")
+document.getElementById("#pm2").addEventListener("click",()=> 
+document.querySelector(".at2_1").classList.toggle("show-cor")
 );
 
 //Mes 3
