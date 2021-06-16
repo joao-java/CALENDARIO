@@ -1,9 +1,21 @@
 
 
 //Mes 1
-document.querySelector("#pm1").addEventListener("click", ()=> 
-document.querySelector(".at1").classList.toggle("show-cor")
-);
+document.querySelector(".at1_1").addEventListener("click", ()=> 
+document.querySelector(".pm1").classList.toggle("show-at1_1")
+);// class="a1x1"
+document.querySelector(".at1_2").addEventListener("click", ()=> 
+document.querySelector(".pm1").classList.toggle("show-at1_2")
+);// class="a1x2"
+document.querySelector(".at1_3").addEventListener("click", ()=> 
+document.querySelector(".pm1").classList.toggle("show-at1_3")
+);//class="a1x3"
+document.querySelector(".at1_4").addEventListener("click", ()=> 
+document.querySelector(".pm1").classList.toggle("show-at1_4")
+);//class="a1x4"
+document.querySelector(".at1_5").addEventListener("click", ()=> 
+document.querySelector(".pm1").classList.toggle("show-at1_5")
+);//class="a1x5"
 
 //Mes 2
 document.getElementById("#pm2").addEventListener("click",()=> 

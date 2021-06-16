@@ -1,8 +1,16 @@
 
-.show-cor .a1x1{
-    background: rgb(255, 14, 14);
+/* -- mes 1 -- */
+.show-at1_1 .a1x1{
+    background: #0652dd;
+}.show-at1_2 .a1x2{
+    background: #179bac;
+}.show-at1_3 .a1x3{
+    background: #06dd4e;
+}.show-at1_4 .a1x4{
+    background: #79dd06;
+}.show-at1_5 .a1x5{
+    background: #fffb00;
 }
-
-.show-cor .atual2{
-    background: #000;
+. {
+    display: none;
 }

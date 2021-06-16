@@ -1,3 +1,6 @@
 .vinte2 {
- background: #b9b72e;
+ background: linear-gradient(90deg, #fffb00, #06dd4e) ;
 }
+.dezesseis, .dezessete, .dezoito, .vinte1, .vinte3, .vinte4, .vinte5, .vinte8, .vinte8, .vinte9, .trinta{
+    background: #06dd4e;
+} 
