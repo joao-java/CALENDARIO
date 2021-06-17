@@ -194,7 +194,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: url(/IMG/article_background.png);
+    background  : url(/IMG/article_background.png);
     background-position: center;
 }.destaqueCor{
     width: 10%;
