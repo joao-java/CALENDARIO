@@ -314,9 +314,11 @@ main{
     cursor: pointer;
 }.atividade > div:nth-child(2) {
     padding-left: 5px;
+    font-size: 12px;
+    min-height: 1.5rem;
 }.corAtv{
     width: 2rem;
-    height: 1.5rem;
+    max-height: 100%;
 }.atividade span{
     color: #016f13;
 }.post{
