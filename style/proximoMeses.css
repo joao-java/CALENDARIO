@@ -1,15 +1,13 @@
 
 /* -- mes 1 -- */
 .show-at1_1 .a1x1{
-    background: #0652dd;
+    background: #0050e6;
 }.show-at1_2 .a1x2{
-    background: #179bac;
+    background: #60a1f7;
 }.show-at1_3 .a1x3{
-    background: #06dd4e;
+    background: #02ec50;
 }.show-at1_4 .a1x4{
-    background: #79dd06;
-}.show-at1_5 .a1x5{
-    background: #fffb00;
+    background: #6cc261;
 }
 . {
     display: none;

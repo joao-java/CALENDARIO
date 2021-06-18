@@ -5,7 +5,7 @@
 .n1, .n3{
     background: aqua;
 }
-.dia .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10, .n11, .n12, .n13, .n14, .n15{
+.dia .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10, .n11, .n12, .n13, .n14, .n15, .n16, .n17{
     background: #000;
     color: #fff
 }
@@ -45,17 +45,15 @@
 
 /* -- CORES DE MARCAÇÃO -- */
 .dc1 /*sala everaldo*/{
-    background: #0652dd;
+    background: #0050e6;
 }.dc2 /*sala costa Gisele*/{
-    background: #179bac;
+    background: #60a1f7;
 }.dc3 /*sala 1 corredor*/{
-    background: #06dd4e;
+    background: #02ec50;
 }.dc4 /*sala 2 corredor*/{
-    background: #79dd06;
-}.dc5 /*sala fundo*/{
-    background: #ddd906;
+    background: #6cc261;
 }
-
+    
 /* -- TESTE descrição da atividade -- */
 
 .a1 > :nth-child(1):hover .diasAtuais:nth-child(1){
