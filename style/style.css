@@ -265,6 +265,7 @@ main{
     overflow: hidden;
     background: #ececec;
     overflow-x: scroll;
+    position: relative;
     /*
     filtro de transparencia
     filter:blur(4px);
@@ -273,7 +274,15 @@ main{
     -moz-filter:blur(4px);
     -webkit-filter:blur(4px);
     */
-}.calendarioMain img{
+}.post::before{
+    content:"";
+    width: 10px;
+    height: 100%;
+    background: #c20b0bc4;
+    position: absolute;
+    left: 0;
+}
+.calendarioMain img{
     object-fit: cover;
 
 }.proximosMeses{

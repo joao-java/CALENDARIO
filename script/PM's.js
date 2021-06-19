@@ -1,4 +1,4 @@
-
+3
 
 //Mes 1
 document.querySelector(".at1_1").addEventListener("click", ()=> 
@@ -31,59 +31,141 @@ document.querySelector(".pm2").classList.toggle("show-at2_4")
 
 //Mes 3
 document.querySelector(".at3_1").addEventListener("click",()=> 
-document.querySelector(".pm3").classList.toggle("show-at2_1")
+document.querySelector(".pm3").classList.toggle("show-at3_1")
 );
 document.querySelector(".at3_2").addEventListener("click",()=> 
-document.querySelector(".pm3").classList.toggle("show-at2_2")
+document.querySelector(".pm3").classList.toggle("show-at3_2")
 );
 document.querySelector(".at3_3").addEventListener("click",()=> 
-document.querySelector(".pm3").classList.toggle("show-at2_3")
+document.querySelector(".pm3").classList.toggle("show-at3_3")
 );
 document.querySelector(".at3_4").addEventListener("click",()=> 
-document.querySelector(".pm3").classList.toggle("show-at2_4")
+document.querySelector(".pm3").classList.toggle("show-at3_4")
 );
+
 //Mes 4
-document.querySelector(".pm4").addEventListener("click", ()=> 
-document.querySelector(".at4").classList.toggle("show-cor")
+document.querySelector(".at4_1").addEventListener("click",()=> 
+document.querySelector(".pm4").classList.toggle("show-at4_1")
+);
+document.querySelector(".at4_2").addEventListener("click",()=> 
+document.querySelector(".pm4").classList.toggle("show-at4_2")
+);
+document.querySelector(".at4_3").addEventListener("click",()=> 
+document.querySelector(".pm4").classList.toggle("show-at4_3")
+);
+document.querySelector(".at4_4").addEventListener("click",()=> 
+document.querySelector(".pm4").classList.toggle("show-at4_4")
 );
 
 //Mes 5
-document.querySelector(".pm5").addEventListener("click", ()=> 
-document.querySelector(".at5").classList.toggle("show-cor")
+document.querySelector(".at5_1").addEventListener("click",()=> 
+document.querySelector(".pm5").classList.toggle("show-at5_1")
+);
+document.querySelector(".at5_2").addEventListener("click",()=> 
+document.querySelector(".pm5").classList.toggle("show-at5_2")
+);
+document.querySelector(".at5_3").addEventListener("click",()=> 
+document.querySelector(".pm5").classList.toggle("show-at5_3")
+);
+document.querySelector(".at5_4").addEventListener("click",()=> 
+document.querySelector(".pm5").classList.toggle("show-at5_4")
 );
 
 //Mes 6
-document.querySelector(".pm6").addEventListener("click", ()=> 
-document.querySelector(".at6").classList.toggle("show-cor")
+document.querySelector(".at6_1").addEventListener("click",()=> 
+document.querySelector(".pm6").classList.toggle("show-at6_1")
+);
+document.querySelector(".at6_2").addEventListener("click",()=> 
+document.querySelector(".pm6").classList.toggle("show-at6_2")
+);
+document.querySelector(".at6_3").addEventListener("click",()=> 
+document.querySelector(".pm6").classList.toggle("show-at6_3")
+);
+document.querySelector(".at6_4").addEventListener("click",()=> 
+document.querySelector(".pm6").classList.toggle("show-at6_4")
 );
 
 //Mes 7
-document.querySelector(".pm7").addEventListener("click", ()=> 
-document.querySelector(".at7").classList.toggle("show-cor")
+document.querySelector(".at4_1").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at4_1")
+);
+document.querySelector(".at4_2").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at4_2")
+);
+document.querySelector(".at4_3").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at4_3")
+);
+document.querySelector(".at4_4").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at4_4")
 );
 
 //Mes 8
-document.querySelector(".pm8").addEventListener("click", ()=> 
-document.querySelector(".at8").classList.toggle("show-cor")
+document.querySelector(".at8_1").addEventListener("click",()=> 
+document.querySelector(".pm8").classList.toggle("show-at8_1")
+);
+document.querySelector(".at8_2").addEventListener("click",()=> 
+document.querySelector(".pm8").classList.toggle("show-at8_2")
+);
+document.querySelector(".at8_3").addEventListener("click",()=> 
+document.querySelector(".pm8").classList.toggle("show-at8_3")
+);
+document.querySelector(".at8_4").addEventListener("click",()=> 
+document.querySelector(".pm8").classList.toggle("show-at8_4")
 );
 
 //Mes 9
-document.querySelector(".pm9").addEventListener("click", ()=> 
-document.querySelector(".at9").classList.toggle("show-cor")
+document.querySelector(".at9_1").addEventListener("click",()=> 
+document.querySelector(".pm9").classList.toggle("show-at9_1")
+);
+document.querySelector(".at9_2").addEventListener("click",()=> 
+document.querySelector(".pm9").classList.toggle("show-at9_2")
+);
+document.querySelector(".at9_3").addEventListener("click",()=> 
+document.querySelector(".pm9").classList.toggle("show-at9_3")
+);
+document.querySelector(".at9_4").addEventListener("click",()=> 
+document.querySelector(".pm9").classList.toggle("show-at9_4")
 );
 
 //Mes 10
-document.querySelector(".pm10").addEventListener("click", ()=> 
-document.querySelector(".at10").classList.toggle("show-cor")
+document.querySelector(".at10_1").addEventListener("click",()=> 
+document.querySelector(".pm10").classList.toggle("show-at10_1")
+);
+document.querySelector(".at10_2").addEventListener("click",()=> 
+document.querySelector(".pm10").classList.toggle("show-at10_2")
+);
+document.querySelector(".at10_3").addEventListener("click",()=> 
+document.querySelector(".pm10").classList.toggle("show-at10_3")
+);
+document.querySelector(".at10_4").addEventListener("click",()=> 
+document.querySelector(".pm10").classList.toggle("show-at10_4")
 );
 
 //Mes 11
-document.querySelector(".pm11").addEventListener("click", ()=> 
-document.querySelector(".at11").classList.toggle("show-cor")
+document.querySelector(".at11_1").addEventListener("click",()=> 
+document.querySelector(".pm11").classList.toggle("show-at11_1")
+);
+document.querySelector(".at11_2").addEventListener("click",()=> 
+document.querySelector(".pm11").classList.toggle("show-at11_2")
+);
+document.querySelector(".at11_3").addEventListener("click",()=> 
+document.querySelector(".pm11").classList.toggle("show-at11_3")
+);
+document.querySelector(".at11_4").addEventListener("click",()=> 
+document.querySelector(".pm11").classList.toggle("show-at11_4")
 );
 
 //Mes 12
-document.querySelector(".pm12").addEventListener("click", ()=> 
-document.querySelector(".at12").classList.toggle("show-cor")
+document.querySelector(".at12_1").addEventListener("click",()=> 
+document.querySelector(".pm12").classList.toggle("show-at12_1")
+);
+document.querySelector(".at12_2").addEventListener("click",()=> 
+document.querySelector(".pm12").classList.toggle("show-at12_2")
+);
+document.querySelector(".at12_3").addEventListener("click",()=> 
+document.querySelector(".pm12").classList.toggle("show-at12_3")
+);
+document.querySelector(".at12_4").addEventListener("click",()=> 
+document.querySelector(".pm12").classList.toggle("show-at12_4")
 );
 
