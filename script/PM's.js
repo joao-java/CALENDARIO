@@ -86,17 +86,17 @@ document.querySelector(".pm6").classList.toggle("show-at6_4")
 );
 
 //Mes 7
-document.querySelector(".at4_1").addEventListener("click",()=> 
-document.querySelector(".pm7").classList.toggle("show-at4_1")
+document.querySelector(".at7_1").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at7_1")
 );
-document.querySelector(".at4_2").addEventListener("click",()=> 
-document.querySelector(".pm7").classList.toggle("show-at4_2")
+document.querySelector(".at7_2").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at7_2")
 );
-document.querySelector(".at4_3").addEventListener("click",()=> 
-document.querySelector(".pm7").classList.toggle("show-at4_3")
+document.querySelector(".at7_3").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at7_3")
 );
-document.querySelector(".at4_4").addEventListener("click",()=> 
-document.querySelector(".pm7").classList.toggle("show-at4_4")
+document.querySelector(".at7_4").addEventListener("click",()=> 
+document.querySelector(".pm7").classList.toggle("show-at7_4")
 );
 
 //Mes 8
