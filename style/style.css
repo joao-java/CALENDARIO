@@ -204,6 +204,7 @@ section{
     justify-content: center;
     font-size: 2rem;
     align-items: center;
+    text-shadow: 1px 1px 1px #6d6d6d;
 }
 
 /* ------ NAV ------ */
@@ -412,6 +413,27 @@ article{
 
 footer{
     width: 100%;
-    height: 30vh;
-    background: rgb(61, 60, 60);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}.footerDescrição{
+    width: 100%;
+    height: 80%;
+    background: #4d4d4d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.footerDescrição ul li{
+    margin-top: 7px;
+}.footerDescrição ul li:nth-child(1){
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}.Eu{
+    width: 100%;
+    height: 20%;
+    background: #222222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
