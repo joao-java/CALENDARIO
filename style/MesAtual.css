@@ -1,6 +1,9 @@
 .trinta {
  background: linear-gradient(90deg, #0050e6, #60a1f7,#02ec50 ) ;
 }
-.dezesseis, .dezessete, .dezoito, .vinte1, .vinte3, .vinte4, .vinte5, .vinte8, .vinte8, .vinte9{
+.vinte9{
+ background: linear-gradient(90deg, #0050e6,#02ec50 ) ;
+}
+.dezesseis, .dezessete, .dezoito, .vinte1, .vinte3, .vinte4, .vinte5, .vinte8, .vinte8,{
     background: #0050e6;
 } 
