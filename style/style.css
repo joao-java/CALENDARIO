@@ -214,7 +214,7 @@ section{
 /* ------ NAV ------ */
 nav{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,28 +222,27 @@ nav{
     flex-direction: column;
 }.containerNav{
     width: 100%;
-    height: 70%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background  : url(../IMG/article_background.png);
-    background-position: center;
 }.destaqueCor{
     width: 10%;
     height: 100%;
 }.destaqueDescrição{
     padding-left: 9px;
+    font-size: 12px;
 }.destaqueDescrição span{
     font-size: 1.5rem;
 }.destaqueDasCores{
-    width: 80%;
-    height: 100%;
+    width: 350px;
+    height: 350px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
 }.destaqueDasCores > div{
-    height: 3.5rem;
+    height: 2.5rem;
     width: 320px;
     background: #ffffff85;
     margin: 5px 1rem;
@@ -252,11 +251,20 @@ nav{
     align-items: center;
     border-radius: 7px;
     overflow: hidden;
+    box-shadow: 2px 2px 5px #000;
+}.planta{
+    width: 350px ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.planta img{
+    height: 90%;
 }.QR{
     display: flex;
     justify-content: center;
     width: 200px;
-    height: 80%;
+    height: 200px;
 }
 
 /* ------ MAIN ------ */    
@@ -292,9 +300,9 @@ main{
     */
 }.post::before{
     content:"";
-    width: 10px;
+    width: 2px;
     height: 100%;
-    background: #c20b0bc4;
+    background: #30c20bc4;
     position: absolute;
     left: 0;
 }.calendarioMain img{
@@ -349,6 +357,7 @@ main{
     width: 45%;
     height: 90%;
     position: relative;
+    display: flex;
 }.postBanner{
     text-align: center;
     position: absolute;
@@ -363,8 +372,10 @@ main{
     width: 100%;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 } .postImg img{
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit:cover;
 }
