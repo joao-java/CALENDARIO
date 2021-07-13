@@ -69,4 +69,22 @@
     .planta img{
         max-height: 300px;
     }
+
+    /* main */
+    .fundoMain{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }.calendarioMain{
+        width: 100%;
+        height: 50%;
+    }.post{
+        width: 100%;
+        height: 50%;
+    }
+
+    /* article */
+    .articleImg img{
+        width: 250px;
+    }
 }
