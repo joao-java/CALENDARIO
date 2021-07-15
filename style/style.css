@@ -179,6 +179,7 @@ section{
     transform: translateX(-200px);
     transition: 0.5s;
     margin: 0 auto;
+    overflow-y: scroll;
 }.content{
     width: 100%;
     display: flex;

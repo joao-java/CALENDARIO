@@ -1,14 +1,4 @@
 
-.um{
-    grid-column: 5;
-}
-
-.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze, .treze{
-    background: #000;
-    color: rgba(255, 255, 255, 0.089)
-}
-
-
 /* -- COMEÇO DO MEU GRID -- */
 .atual1{
     grid-column: 5;

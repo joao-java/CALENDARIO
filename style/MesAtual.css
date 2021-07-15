@@ -1,4 +1,15 @@
-.quatorze, .quinze, .dezesseis, .dezenove, .vinte, .vinte1, .vinte2, .vinte3, .vinte6, .vinte7, .vinte8, .vinte9, .trinta {
+/*começo do meu grid "Mes atual"*/
+.um{
+    grid-column: 5;
+}
+
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze, .treze, .quatorze{
+    background: #000;
+    color: rgba(255, 255, 255, 0.089)
+}
+
+
+.quinze, .dezesseis, .dezenove, .vinte, .vinte1, .vinte2, .vinte3, .vinte6, .vinte7, .vinte8, .vinte9, .trinta {
     background: #0050e6;
 } 
 
