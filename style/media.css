@@ -1,6 +1,7 @@
 @media (max-width: 500px){
     .container{
-        max-width: 100%;
+        min-width: 100%;
+        overflow: hidden;
     }
 
     /*section*/
@@ -62,9 +63,12 @@
     }.diaSemana{
         font-size: 7px;
     }.dia{
-        max-width: 45px;
+        max-width: 50px;
         max-height: 65px;
-    }.dataDes{
+    }.content p{
+        font-size: 10px;
+    }
+    .dataDes{
         font-size: 10px;
     }
 
@@ -95,9 +99,25 @@
     }
 
     /* article */
-    .articleImg img{
-        width: 250px;
+    article{
+        margin-top: 15rem;
+        height: auto;
+    }
+    .article_fundo{
+        height: 150px;
     }.articleImg{
-        max-height: 100%;
+        width: 50%;
+    }
+    .articleImg img{
+        width: 100%;
+    }.articleInfo{
+        width: 50%;
+    }.articleInfo p{
+        font-size: 12px;
+    }.articleInfo img{
+        width: 100px;
+    }.articleInfo h5{
+        text-align: center;
+        margin-bottom: 0;
     }
 }
