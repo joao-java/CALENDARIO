@@ -3,18 +3,18 @@
     grid-column: 5;
 }
 
-.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze, .treze, .quatorze, .quinze,.dezesseis, .dezessete, .dezoito {
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze, .treze, .quatorze, .quinze,.dezesseis, .dezessete, .dezoito,.dezenove, .vinte {
     background: #000;
     color: rgba(255, 255, 255, 0.089)
 }
 
 
-.vinte, .vinte1, .vinte2, .vinte3, .vinte6, .vinte7, .vinte8, .vinte9, .trinta {
+.vinte1, .vinte2, .vinte3, .vinte6, .vinte7, .vinte8, .vinte9, .trinta {
     background: #0050e6;
 } 
 
-.vinte1, .vinte3, .vinte7{   
+ .vinte3, .vinte7{   
     background: linear-gradient(90deg, #0050e6, #02ec50);
-}.dezenove{
-    background: linear-gradient(90deg, #0050e6, #9dc1f1);
-}
+}.vinte1{
+    background: linear-gradient(90deg, #0050e6,#60a1f7, #02ec50);
+}.
