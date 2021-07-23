@@ -14,5 +14,7 @@
 } 
 
  .vinte3, .vinte7{   
-    background: linear-gradient(90deg, #0050e6, #02ec50);
-}                                                                                                       
+    background: linear-gradient(90deg, #0050e6,#60a1f7, #02ec50);
+}.vinte2, .vinte6, .vinte8, .trinta{
+    background: linear-gradient(90deg, #0050e6, #60a1f7);
+}                                                                                               
