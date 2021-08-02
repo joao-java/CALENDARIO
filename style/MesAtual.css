@@ -14,7 +14,7 @@
     color: rgba(255, 255, 255, 0.089)
 }
 .quatro{
-    background: linear-gradient(90deg,#0050e6, #60a1f7, #02ec50);
+    background: linear-gradient(90deg,var(--sala-1-color), var(--sala-2-color), var(--sala-3-color));
 } 
 .dois{
     background: linear-gradient(90deg, #0050e6, #60a1f7);
