@@ -1,6 +1,6 @@
 import Countdown from ".//countdown.js";
 
-const calParaOWWB = new Countdown("1 August 2021 17:48:00 GMT-0300");
+const calParaOWWB = new Countdown("31 August 2021 17:48:00 GMT-0300");
 const calendario = document.querySelectorAll("[calendario-time]");
 
 
