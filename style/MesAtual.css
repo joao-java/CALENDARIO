@@ -2,17 +2,27 @@
 .um{
     grid-column: 1;
 }
+:root{
+    --sala-1-color:#0050e6;
+    --sala-2-color:#60a1f7;
+    --sala-4-color:#02ec50;
+    --sala-3-color:#6cc261;
+}
 
 .um{
     background: #000;
     color: rgba(255, 255, 255, 0.089)
 }
-.tres, .dez, .dezessete{
-    background: #02ec50;
-}
 .quatro{
-    background: linear-gradient(90deg, #60a1f7, #02ec50);
+    background: linear-gradient(90deg,#0050e6, #60a1f7, #02ec50);
 } 
 .dois{
     background: linear-gradient(90deg, #0050e6, #60a1f7);
 } 
+.tres, .dez, .dezessete{
+    background: linear-gradient(90deg, #0050e6, #60a1f7);
+}
+.cinco, .seis, .nove, .onze, .doze, .treze, .dezesseis, .dezoito, .dezenove
+, .vinte, .vinte3, .vinte4, .vinte5, .vinte6, .vinte7, .trinta, .trinta1 {
+    background: var(--sala-1-color);
+}
