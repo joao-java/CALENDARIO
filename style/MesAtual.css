@@ -10,14 +10,14 @@
     --back--fundo:#ffffff17;
 }
 
-.um, .dois{
+.um, .dois, .tres{
     background: #000;
     color: var(--back--fundo);
 }
 .quatro{
     background: linear-gradient(90deg,var(--sala-1-color), var(--sala-2-color), var(--sala-3-color));
 } 
-.tres, .dez, .dezessete{
+.dez, .dezessete{
     background: linear-gradient(90deg, var(--sala-1-color), #02ec50);
 }
 .cinco, .seis, .nove, .onze, .doze, .treze, .dezesseis, .dezoito, .dezenove
