@@ -2,6 +2,7 @@
 .um{
     grid-column: 1;
 }
+
 :root{
     --sala-1-color:#0050e6;
     --sala-2-color:#60a1f7;
@@ -14,10 +15,9 @@
     background: #000;
     color: var(--back--fundo);
 }
-.dez, .dezessete{
-    background: linear-gradient(90deg, var(--sala-1-color), #02ec50);
+.dez, .dezessete, .seis{
+    background:  #02ec50;
 }
-.cinco, .seis, .nove, .onze, .doze, .treze, .dezesseis, .dezoito, .dezenove
-, .vinte, .vinte3, .vinte4, .vinte5, .vinte6, .vinte7, .trinta, .trinta1 {
-    background: var(--sala-1-color);
+.seis{
+    background:  var(--sala-2-color);
 }
