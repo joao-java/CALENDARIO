@@ -11,13 +11,10 @@
     --back--fundo:#ffffff17;
 }
 
-.um, .dois, .tres, .quatro, .cinco{
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito{
     background: #000;
     color: var(--back--fundo);
 }
-.dez, .dezessete, .seis{
+.dez, .dezessete{
     background:  #02ec50;
-}
-.seis{
-    background:  var(--sala-2-color);
 }
