@@ -1,4 +1,8 @@
 /*começo do meu grid "Mes atual"*/
+.dia:hover{
+    transform: scale3d(50px);
+}
+
 .um{
     grid-column: 1;
 }
@@ -11,15 +15,19 @@
     --back--fundo:#ffffff17;
 }
 
-.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze{
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze,
+.doze{
     background: #000;
     color: var(--back--fundo);
 }
 .treze{
     background: linear-gradient(90deg, var(--sala-1-color), var(--sala-3-color));
 }
-.vinte7{
+.vinte7, .dezesseis{
     background: var(--sala-1-color);
+}
+.dezenove{
+    background: var(--sala-2-color);
 }
 .dezessete{
     background:  #02ec50;
