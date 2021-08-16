@@ -16,12 +16,9 @@
 }
 
 .um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze,
-.doze{
+.doze, .treze, .quatorze, .quinze{
     background: #000;
     color: var(--back--fundo);
-}
-.treze{
-    background: linear-gradient(90deg, var(--sala-1-color), var(--sala-3-color));
 }
 .vinte7, .dezesseis{
     background: var(--sala-1-color);
