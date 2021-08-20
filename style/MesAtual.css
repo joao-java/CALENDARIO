@@ -16,10 +16,13 @@
 }
 
 .um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze,
-.doze, .treze, .quatorze, .quinze, .dezesseis, .dezessete, .dezoito, .dezenove{ 
+.doze, .treze, .quatorze, .quinze, .dezesseis, .dezessete, .dezoito, .dezenove, .vinte{ 
     background: #000;
     color: var(--back--fundo);
 }
 .vinte7{
     background: var(--sala-1-color);
+}
+.vinte4{
+    background: var(--sala-3-color);
 }
