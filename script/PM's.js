@@ -1,7 +1,6 @@
 
 
 //Background automatico 
-let diaMes = document.querySelector(".diaMes")
 let diaMesC = document.querySelector(".diaMes").children
 let diaAtual = new Date().getDate()
 
