@@ -1,7 +1,4 @@
 /*começo do meu grid "Mes atual"*/
-.dia:hover{
-    transform: scale3d(50px);
-}
 
 .um{
     grid-column: 1;
@@ -17,7 +14,4 @@
 
 .vinte7{
     background: var(--sala-1-color);
-}
-.vinte5{
-    background: var(--sala-3-color);
 }
