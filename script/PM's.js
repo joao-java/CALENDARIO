@@ -1,4 +1,23 @@
-3
+
+
+//Background automatico 
+let diaMes = document.querySelector(".diaMes")
+let diaMesC = document.querySelector(".diaMes").children
+let diaAtual = new Date().getDate()
+
+for(i = 0; i < (diaAtual-1) ; i++){
+    let contar = (i + 0) 
+    let comecar = diaMesC[contar]
+    console.log(comecar)
+    if(comecar){
+        comecar.style.background = "#000"
+        comecar.style.color = "#fff"
+    }
+}
+//Alert 
+
+alert("Estou em casa pessoal, porem ainda atualizo o calendario" + "\n" + "ASS: João Melo/Moiado")
+
 
 //Mes 1
 document.querySelector(".at1_1").addEventListener("click", ()=> 

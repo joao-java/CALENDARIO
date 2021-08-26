@@ -15,12 +15,6 @@
     --back--fundo:#ffffff17;
 }
 
-.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze,
-.doze, .treze, .quatorze, .quinze, .dezesseis, .dezessete, .dezoito, .dezenove, .vinte,
-.vinte1, .vinte2, .vinte3, .vinte4{ 
-    background: #000;
-    color: var(--back--fundo);
-}
 .vinte7{
     background: var(--sala-1-color);
 }
