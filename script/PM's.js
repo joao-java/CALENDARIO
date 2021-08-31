@@ -1,7 +1,9 @@
 
 
 //Background automatico 
-let diaMesC = document.querySelector(".diaMes").children, diaAtual = new Date().getDate()
+let diaMesC = document.querySelector(".diaMes").children, diaAtual = new Date().getDate(),
+mesAtual = new Date();
+console.log(mesAtual);
 
 for(i = 0; i < (diaAtual-1) ; i++){
     let contar = (i + 0) 
@@ -13,8 +15,6 @@ for(i = 0; i < (diaAtual-1) ; i++){
 }
 
 //Alert 
-alert("Estou em casa pessoal, porem ainda atualizo o calendario" + "\n" + "ASS: João Melo/Moiado")
-
 
 //Mes 1
 document.querySelector(".at1_1").addEventListener("click", ()=> 
