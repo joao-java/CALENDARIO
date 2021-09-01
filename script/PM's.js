@@ -5,13 +5,12 @@
 let diaMesC = document.querySelector(".diaMes").children, diaAtual = new Date().getDate(),
 mesAtual = new Date().getMonth() ;
 const DecMes = ["janeiro ", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
-console.log(DecMes)
 if(diaMesC){
     let VaiTag  = DecMes[mesAtual];
     let mesData = document.querySelector(".mesData p").innerText = VaiTag;
-    console.log(mesData);
 }
 
+console.log(diaMesC)
 //Background automatico
 //Mes atual 
 for(i = 0; i < (diaAtual-1) ; i++){
@@ -22,8 +21,6 @@ for(i = 0; i < (diaAtual-1) ; i++){
         comecar.style.color = "#fff"
     }
 }
-
-//Alert 
 
 //Mes 1
 document.querySelector(".at1_1").addEventListener("click", ()=> 
