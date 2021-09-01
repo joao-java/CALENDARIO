@@ -1,10 +1,19 @@
 
 
-//Background automatico 
+//descrição do meu Mes atual 
+//concluido com sucesso hshshshh
 let diaMesC = document.querySelector(".diaMes").children, diaAtual = new Date().getDate(),
-mesAtual = new Date();
-console.log(mesAtual);
+mesAtual = new Date().getMonth() ;
+const DecMes = ["janeiro ", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+console.log(DecMes)
+if(diaMesC){
+    let VaiTag  = DecMes[mesAtual];
+    let mesData = document.querySelector(".mesData p").innerText = VaiTag;
+    console.log(mesData);
+}
 
+//Background automatico
+//Mes atual 
 for(i = 0; i < (diaAtual-1) ; i++){
     let contar = (i + 0) 
     let comecar = diaMesC[contar]
