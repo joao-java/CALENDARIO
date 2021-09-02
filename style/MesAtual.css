@@ -9,9 +9,7 @@
     --sala-2-color:#60a1f7;
     --sala-4-color:#02ec50;
     --sala-3-color:#6cc261;
-    --back--fundo:#ffffff17;
 }
-
-.vinte7{
-    background: var(--sala-1-color);
-}
+.dois, .seis, .oito, .quinze, .dezesseis, .vinte2, .vinte3, .vinte9{
+    background: var(--sala-2-color);
+} 
