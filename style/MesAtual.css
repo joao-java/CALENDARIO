@@ -7,9 +7,12 @@
 :root{
     --sala-1-color:#0050e6;
     --sala-2-color:#60a1f7;
-    --sala-4-color:#02ec50;
-    --sala-3-color:#6cc261;
+    --sala-3-color:#02ec50;
+    --sala-4-color:#6cc261;
 }
 .dois, .seis, .oito, .quinze, .dezesseis, .vinte2, .vinte3, .vinte9{
     background: var(--sala-2-color);
 } 
+.treze{
+    background: var(--sala-3-color);
+}
