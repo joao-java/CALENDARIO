@@ -33,13 +33,13 @@
 
 /* -- CORES DE MARCAÇÃO -- */
 .dc1 /*sala everaldo*/{
-    background: #0050e6;
+    background: var(--sala-1-color);
 }.dc2 /*sala costa Gisele*/{
-    background: #9dc1f1;
+    background: var(--sala-2-color);
 }.dc3 /*sala 1 corredor*/{
-    background: #02ec50;
+    background: var(--sala-3-color);
 }.dc4 /*sala 2 corredor*/{
-    background: #6cc261;
+    background: var(--sala-4-color);
 }
     
 /* -- TESTE descrição da atividade -- */

@@ -10,4 +10,3 @@ function calendarioTempo() {
     });
 }calendarioTempo();
 setInterval(calendarioTempo, 1000);
-
