@@ -2,6 +2,7 @@
 
 .um{
     grid-column: 4;
+    background: linear-gradient();
 }
 
 :root{
@@ -10,10 +11,24 @@
     --sala-3-color:#02ec50;
     --sala-4-color:#6cc261;
 }
-.dois, .seis, .oito, .quinze, .dezesseis, .vinte2, .vinte3, .vinte9{
+.sala1{
+    background: var(--sala-1-color);
+}
+.sala2{
     background: var(--sala-2-color);
-} 
-.treze{
+}
+.sala3{
     background: var(--sala-3-color);
 }
-
+.sala4{
+    background: var(--sala-4-color);
+}
+.sala1e2{
+    background: linear-gradient(90deg, var(--sala-1-color), var(--sala-2-color));
+}
+.sala1e3{
+    background: linear-gradient(90deg, var(--sala-1-color), var(--sala-3-color));
+}
+.sala2e3{
+    background: linear-gradient(90deg, var(--sala-2-color), var(--sala-3-color));
+}
