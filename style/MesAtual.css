@@ -32,3 +32,6 @@
 .sala2e3{
     background: linear-gradient(90deg, var(--sala-2-color), var(--sala-3-color));
 }
+.sala1e2e3{
+    background: linear-gradient(90deg, var(--sala-1-color), var(--sala-2-color), var(--sala-3-color));
+}
