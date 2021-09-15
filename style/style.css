@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,700&display=swap');
 *{
+    box-sizing: border-box;
     margin: 0;
     list-style: none;
     text-decoration: none;
@@ -8,9 +9,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 .container{
-    width: 100%;
+    max-width: 1350px;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+}
 /* ------- SECTION -------- */
 
 section{
