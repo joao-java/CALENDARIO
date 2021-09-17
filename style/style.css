@@ -205,6 +205,7 @@ section{
     border-radius: 5px;
     overflow:hidden;
     cursor: pointer;
+    transition: .3s;
     box-shadow: 3px 3px 7px rgb(58, 56, 56);
 }.dia:hover{
     transform: scale(1.2);
