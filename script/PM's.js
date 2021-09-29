@@ -15,25 +15,22 @@ for(i = 0; i < (diaAtual-1) ; i++){
     let comecar = diaMesC[contar]
     comecar.style.background = "#000"
     comecar.style.color = "#fff"
-}
-
-
-//pegar minha div dia 
-//pegar meu "p" dentro da div "dia" 
-let dia = document.getElementsByClassName("dia");
-let sala1 = document.getElementsByClassName("sala1");
-let sala2 = document.getElementsByClassName("sala2");
-let sala3 = document.getElementsByClassName("sala3");
-let sala4 = document.getElementsByClassName("sala4");
-console.log(dia)
-console.log(sala1)
-console.log(sala2)
-console.log(sala3)
-console.log(sala4)
-
-if(!!sala1 === true){
-    styleMedia.background = "#000"
 };
+
+
+
+/*===================== INSERIR =====================*/
+
+const insert__button = document.querySelector(".insert__button button"),insert__body = document.querySelector(".insert__body"), data__insert = document.querySelector(".data__insert button"), insert__buttonIcon = document.querySelector(".insert__buttonIcon");
+
+insert__button.addEventListener('click', () =>{
+    insert__body.classList.toggle("show-insert")
+    insert__buttonIcon.classList.toggle("show-icon")
+});
+data__insert.addEventListener('click', () =>{
+    insert__body.classList.remove("show-insert")
+});
+
 
 
 //Mes 1

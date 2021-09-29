@@ -23,3 +23,4 @@ export default class Countdown {
         return [days, hours, minutes, seconds];
     }
 }
+
