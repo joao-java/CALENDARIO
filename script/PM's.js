@@ -25,7 +25,6 @@ const insert__button = document.querySelector(".insert__button button"),insert__
 
 insert__button.addEventListener('click', () =>{
     insert__body.classList.toggle("show-insert")
-    insert__buttonIcon.classList.toggle("show-icon")
 });
 data__insert.addEventListener('click', () =>{
     insert__body.classList.remove("show-insert")
