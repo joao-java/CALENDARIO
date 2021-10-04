@@ -21,15 +21,16 @@ for(i = 0; i < (diaAtual-1) ; i++){
 
 /*===================== INSERIR =====================*/
 
-const insert__button = document.querySelector(".insert__button button"),insert__body = document.querySelector(".insert__body"), data__insert = document.querySelector(".data__insert button"), insert__buttonIcon = document.querySelector(".insert__buttonIcon");
+const insert__button = document.querySelector(".insert__button button"),insert__body = document.querySelector(".insert__body"), data__insert = document.querySelector(".data__insert"), insert__buttonIcon = document.querySelector(".insert__buttonIcon");
 
 insert__button.addEventListener('click', () =>{
     insert__body.classList.toggle("show-insert")
 });
+/*
 data__insert.addEventListener('click', () =>{
     insert__body.classList.remove("show-insert")
 });
-
+*/
 
 
 //Mes 1
