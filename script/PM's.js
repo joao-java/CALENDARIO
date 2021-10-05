@@ -21,15 +21,16 @@ for(i = 0; i < (diaAtual-1) ; i++){
 
 /*===================== INSERIR =====================*/
 
-const insert__button = document.querySelector(".insert__button button"),insert__body = document.querySelector(".insert__body"), data__insert = document.querySelector(".data__insert button"), insert__buttonIcon = document.querySelector(".insert__buttonIcon");
+const insert__button = document.querySelector(".insert__button button"),insert__body = document.querySelector(".insert__body"), data__insert = document.querySelector(".data__insert"), insert__buttonIcon = document.querySelector(".insert__buttonIcon");
 
 insert__button.addEventListener('click', () =>{
     insert__body.classList.toggle("show-insert")
 });
+/*
 data__insert.addEventListener('click', () =>{
     insert__body.classList.remove("show-insert")
 });
-
+*/
 
 
 //Mes 1
@@ -201,21 +202,3 @@ document.querySelector(".at12_4").addEventListener("click",()=>
 document.querySelector(".pm12").classList.toggle("show-at12_4")
 );
 
-/* DFSDFDSF DS*/
-
-let request = new XMLHttpRequest();
- 
-request.open('GET', url, true);
-request.onload = function() {
- if (request.readyState == 4 && request.status == 200) {
- var resposta = JSON.parse(request.responseText);
- var valores = resposta.value[0];
- console.log(valores.cotacaoCompra);
- console.log(valores.cotacaoVenda);
- console.log(valores.dataHoraCotacao);
- } 
-};
-request.onerror = function() {
-          console.log("Erro:"+request);
-};
-request.send();

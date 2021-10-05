@@ -119,11 +119,10 @@
                         </div>
                     </div>
 
-                    <div class="dia seis sala1">
+                    <div class="dia seis ">
                         <div class="numero n6"> 6</div>
                         <div class="contentbx">
                             <div class="content">
-                                <P>Sala 1 Dulce/ 16:00 as 17:00 </P>
                             </div>
                         </div>
                     </div>
@@ -334,7 +333,6 @@
                         <div class="numero n31"> 31</div>
                         <div class="contentbx">
                             <div class="content">
-                                
                             </div>
                         </div>
                     </div>
@@ -350,28 +348,28 @@
                     <button>INSERIR <i class="uil uil-arrow-down insert__buttonIcon"></i></button>
                 </div>
 
-                <div class="insert__body">
+                <form class="insert__body" >
                     <div class="body__data ">
                         <div>
                             <label for="texto"> Nome: </label>
-                            <input type="text">
-                            <label for="diaAtual"> Dia: </label>
-                            <input type="number" min="1" max="31" >
+                            <input type="text" id="nome">
+                            <label for="diaAtual" > Dia: </label>
+                            <input type="number" id="FdiaAtual" min="1" max="31" >
                             <label for="Sala"> Sala: </label>
-                            <input type="number" min="1" max="4" >
+                            <input type="number" id="sala" min="1" max="4" >
                         </div>
 
                         <div>
                             <label for="horaInicio"> Hora Inicio: </label>
-                            <input type="time" >
+                            <input type="time" id="horaInicio">
                             <label for="horaTermino"> Hora Termino: </label>
-                            <input type="time">
+                            <input type="time" id="horaTermino">
                         </div>
                     </div>
                     <div class="data__insert">
-                        <button>ENVIAR</button>
+                        <input class="button" type="submit" id="enviar" value="Enviar">
                     </div>
-                </div>
+                </form>
             </div>
         </section>
 
@@ -1332,8 +1330,8 @@
     
     
 </body>
-<script type="text/javascript"
- src="script/PM's.js"></script>
+<script type="text/javascript"src="script/PM's.js"></script>
+<script src="script/bd.js"></script>
 <script type="module" src="script/script.js" ></script>
 
 </html>
