@@ -300,14 +300,7 @@ main{
     background: #ececec;
     overflow-x: scroll;
     position: relative;
-    /*
-    filtro de transparencia
-    filter:blur(4px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(4px);
-    -webkit-filter:blur(4px);
-    */
+
 }.calendarioMain img{
     object-fit: cover;
 
